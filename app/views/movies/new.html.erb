@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>New movie</h1>
+
+  <%= render "form", movie: @movie %>
+
+  <br>
+
+  <div>
+    <%= link_to "Back to movies", movies_path, class:"btn btn-success" %>
+  </div>
+</div>
+
