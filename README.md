@@ -31,4 +31,4 @@ requerimientos:
   <code> rails s
   </code>
   <br>
-  <a> https://cosmixy-buscador-pelicula.herokuapp.com/</a>
+  <a> https://cosmayx-buscador-pelicula.herokuapp.com/</a>
