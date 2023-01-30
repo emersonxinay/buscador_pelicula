@@ -31,7 +31,13 @@ requerimientos:
   <code> rails s
   </code>
   <br>
+  <h2>Deploy a Heroku </h2>
   <a> https://cosmayx-buscador-pelicula.herokuapp.com/</a>
+
+  <h2>Deploy Fly.io </h2>
+  <a href="https://peliculas.fly.dev/">link en https://peliculas.fly.dev/ </a>
+
+
 
 
   # Ecomerce Basico con Ruby On Rails 
@@ -79,6 +85,8 @@ bundle lock --add-platform x86_64-linux
 bundle
 ```
 
+
+
 ### ahora corremos para rellenar un formulario desde consola 
 
 ```bash
@@ -90,5 +98,16 @@ fly launch
 ```bash 
 fly deploy 
 ```
+
+## para abrir 
+```bash 
+fly open
+```
+
+## hacer comandos desde terminal de producción de fly
+```bash 
+fly ssh console -C "app/bin/rails console"
+```
+
 
 
