@@ -32,3 +32,63 @@ requerimientos:
   </code>
   <br>
   <a> https://cosmayx-buscador-pelicula.herokuapp.com/</a>
+
+
+  # Ecomerce Basico con Ruby On Rails 
+
+### pasos para levantar en el local
+```bash 
+git clone 
+```
+
+```bash
+bundle install
+```
+```bash
+rails db:create
+```
+```bash 
+rails db:migrate
+```
+
+## Configuración para deploy en  fly.io 
+### en MAC
+### ya deberiamos tener instalado brew 
+### instalar fly en mac
+```bash 
+brew install flyctl
+``` 
+```bash 
+fly
+```
+## ahora nos registramos pero con el siguiente comando 
+
+```bash 
+fly auth signup 
+```
+### eso te llevara a una pestaña de anvegador para que te registres o sino solo aceptar el acceso si ya tienes cuenta
+
+### ahora configuramos desde consola porque el servidor de fly trabaja en linux
+```bash
+bundle lock --add-platform x86_64-linux
+```
+
+### ahora corremos nuevamente solo bundle
+
+```bash
+bundle
+```
+
+### ahora corremos para rellenar un formulario desde consola 
+
+```bash
+fly launch
+```
+### la mayoria le das enter por defecto o yes  excepto el primero que te dice nombre del proyecto 
+
+## para hacer el deploy 
+```bash 
+fly deploy 
+```
+
+
