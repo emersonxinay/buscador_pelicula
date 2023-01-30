@@ -31,16 +31,16 @@ requerimientos:
   <code> rails s
   </code>
   <br>
-  <h2>Deploy a Heroku </h2>
+  <h2>Deploy a Heroku - dejo de ser gratuito y se dio de baja </h2>
   <a> https://cosmayx-buscador-pelicula.herokuapp.com/</a>
 
-  <h2>Deploy Fly.io </h2>
+  <h2>Deploy Fly.io  - Activo </h2>
   <a href="https://peliculas.fly.dev/">link en https://peliculas.fly.dev/ </a>
 
+  <h3>Aplicación web que sirve para registrar una nueva pelicula, lo puedes editar o eliminar, pero  a su vez tiene un buscador de todas las peliculas registradas </h3>
 
 
-
-  # Ecomerce Basico con Ruby On Rails 
+  # Buscador de Pelicula con Ruby On Rails 
 
 ### pasos para levantar en el local
 ```bash 
