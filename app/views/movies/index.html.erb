@@ -22,18 +22,18 @@
       </div>
     <% end %>
     </form>
-  <div class="table-responsive ">
-    <table class="table table-hover  table-sm my-2">
-      <thead class="table-dark">
+  <div class="table-responsive  ">
+    <table class="table table-hover bg-info  table-sm my-2">
+      <thead class="table-primary ">
         <tr>
-          <th class="mx-4 p-2"><%= sort_link(@q, :title) %> </th>
-          <th class="mx-4 p-2"><%= sort_link(@q, :duration) %> </th>
-          <th class="mx-4 p-2"><%= sort_link(@q, :category) %></th>
+          <th class="mx-4 p-2 "><%= sort_link(@q, :title) %> </th>
+          <th class="mx-4 p-2 "><%= sort_link(@q, :duration) %> </th>
+          <th class="mx-4 p-2 "><%= sort_link(@q, :category) %></th>
           <th colspan="3"></th>
         </tr>
       </thead>
 
-      <tbody>
+      <tbody class=" text-dark">
         <% @movies.each do |movie| %>
           <tr>
             <td class="mx-4 p-2"><%= movie.title %></td>
