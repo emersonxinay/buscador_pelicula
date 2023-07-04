@@ -108,6 +108,7 @@ fly open
 ```bash 
 fly ssh console -C "app/bin/rails console"
 ```
-
+## img pagina básica de buscador de pelicula
+<img src="./app/assets/images/pagina.png">
 
 
